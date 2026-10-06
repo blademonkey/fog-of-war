@@ -1,0 +1,145 @@
+very article by an outlet leans the same way. \u201CConfidence\u201D describes how clear the role or interest is from the linked evidence, not how certain every claim is. Read the cited item and ask who observed the event, who controls the underlying records, and what a counter-source says." })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("div", { className: "source-lenses", children: sourceLenses.map((l2) => /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("details", { className: "item", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("summary", { children: [
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("span", { className: "item-head", children: [
+                /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("span", { className: "item-title", children: l2.name }),
+                /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Tag, { tone: "mixed", children: l2.role })
+              ] }),
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("span", { className: "item-teaser", children: l2.watch })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("dl", { className: "kv", children: [
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("dt", { children: "Potential lens" }),
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("dd", { children: l2.watch }),
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("dt", { children: "Confidence in this lens" }),
+              /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)("dd", { children: [
+                l2.confidence,
+                ". ",
+                l2.reason,
+                /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Sources, { ids: l2.src })
+              ] })
+            ] })
+          ] }, l2.name)) }),
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(nu, { children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(iu, { children: "Release notes" }) }),
+          /* @__PURE__ */ (0, import_jsx_runtime19.jsxs)(du, { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "Oct 1, 2026 \xB7 Failed probes and forensic limits", detail: RNOCT1 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "Sep 30, 2026 \xB7 Simulation and release restraint", detail: RNDAILY }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "Sep 29, 2026 \xB7 Australia evidence update", detail: RN17A }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v17 \xB7 Sep 27, 2026 (private review)", detail: RN17 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v16 \xB7 Sep 27, 2026 (private review)", detail: RN16 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v15 \xB7 Sep 27, 2026 (private review)", detail: RN15 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v14 \xB7 Sep 27, 2026 (private review)", detail: RN14 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v13 \xB7 Sep 27, 2026 (private review)", detail: RN13 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v12 \xB7 Sep 27, 2026", detail: RN12 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v11 \xB7 Sep 26, 2026", detail: RN11 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v10 \xB7 Sep 26, 2026", detail: RN10 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v9 \xB7 Sep 26, 2026", detail: RN9 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v8 \xB7 Sep 25, 2026", detail: RN8 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v7 \xB7 Sep 25, 2026", detail: RN7 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v6 \xB7 Sep 24, 2026", detail: RN6 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v5 \xB7 Sep 23, 2026", detail: RN5 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v4 \xB7 Sep 23, 2026", detail: RN4 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v3 \xB7 Sep 23, 2026", detail: RN3 }),
+            /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(fu, { name: "v2 \xB7 Sep 23, 2026", detail: RN2 })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(su, { label: `All sources (${allSources.length})`, heading: true, children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("ol", { className: "all-src", children: allSources.map((s) => /* @__PURE__ */ (0, import_jsx_runtime19.jsx)("li", { value: srcIndex[s.id], children: /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(je2, { href: s.href, children: s.label }) }, s.id)) }) })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime19.jsx)(Su, { children: "Version 17 private review, September 27, 2026. Daily source updates checked October 1. Scores and ladder placements are judgment calls on current evidence. Several cases, including 4 through 7 and 12 through 20, remain open and may move." })
+    ] });
+  }
+
+  // src/main.tsx
+  var import_jsx_runtime20 = __toESM(require_jsx_runtime());
+  (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime20.jsx)(FileRouter, { children: /* @__PURE__ */ (0, import_jsx_runtime20.jsx)(App, {}) }));
+})();
+/*! Bundled license information:
+
+classnames/index.js:
+  (*!
+  	Copyright (c) 2018 Jed Watson.
+  	Licensed under the MIT License (MIT), see
+  	http://jedwatson.github.io/classnames
+  *)
+
+lucide-react/dist/esm/shared/src/utils/mergeClasses.js:
+lucide-react/dist/esm/shared/src/utils/toKebabCase.js:
+lucide-react/dist/esm/shared/src/utils/toCamelCase.js:
+lucide-react/dist/esm/shared/src/utils/toPascalCase.js:
+lucide-react/dist/esm/defaultAttributes.js:
+lucide-react/dist/esm/shared/src/utils/hasA11yProp.js:
+lucide-react/dist/esm/Icon.js:
+lucide-react/dist/esm/createLucideIcon.js:
+lucide-react/dist/esm/icons/arrow-up-right.js:
+lucide-react/dist/esm/icons/check.js:
+lucide-react/dist/esm/icons/chevron-left.js:
+lucide-react/dist/esm/icons/chevron-right.js:
+lucide-react/dist/esm/icons/loader-circle.js:
+lucide-react/dist/esm/icons/x.js:
+lucide-react/dist/esm/lucide-react.js:
+  (**
+   * @license lucide-react v0.577.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+*/
+/*! Bundled license information:
+
+react/cjs/react.production.min.js:
+  (**
+   * @license React
+   * react.production.min.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   *)
+
+scheduler/cjs/scheduler.production.min.js:
+  (**
+   * @license React
+   * scheduler.production.min.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   *)
+
+react-dom/cjs/react-dom.production.min.js:
+  (**
+   * @license React
+   * react-dom.production.min.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   *)
+
+react/cjs/react-jsx-runtime.production.min.js:
+  (**
+   * @license React
+   * react-jsx-runtime.production.min.js
+   *
+   * Copyright (c) Facebook, Inc. and its affiliates.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE file in the root directory of this source tree.
+   *)
+
+react-router/dist/development/chunk-BV7QT456.mjs:
+react-router/dist/development/index.mjs:
+  (**
+   * react-router v7.18.3
+   *
+   * Copyright (c) Remix Software Inc.
+   *
+   * This source code is licensed under the MIT license found in the
+   * LICENSE.md file in the root directory of this source tree.
+   *
+   * @license MIT
+   *)
+*/

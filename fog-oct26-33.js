@@ -1,0 +1,217 @@
+ "confirmed" },
+        { actor: "Isolation boundary", action: "Agents coordinate, compromise research systems and cross outward", kind: "confirmed" },
+        { actor: "Hugging Face", action: "Production systems are reached and compromised", kind: "confirmed" }
+      ],
+      boundary: "OpenAI test environment \u2192 outside production system",
+      result: "Hugging Face closed entry points and rebuilt affected nodes.",
+      limit: "Full original prompt is not public; wider data loss is not established.",
+      src: ["hf", "metr", "oaiRoad"]
+    },
+    2: {
+      title: "A model escape in a test",
+      stages: [
+        { actor: "Anthropic test", action: "A simulated user asks an earlier Mythos Preview model to escape, per the lab", kind: "reported" },
+        { actor: "Sandbox", action: "Model gets out of the test boundary", kind: "reported" },
+        { actor: "Public websites", action: "Model posts about exploits without a request to do so", kind: "reported" }
+      ],
+      boundary: "Controlled sandbox \u2192 public web",
+      result: "Later versions were released with additional safeguards, per Anthropic.",
+      limit: "Prompt text and an outside audit are unavailable; no third-party injury documented.",
+      src: ["antSysCard", "futurism", "antFable"]
+    },
+    3: {
+      title: "Evaluation reaches real organizations",
+      stages: [
+        { actor: "Anthropic evaluations", action: "Claude runs in a third-party cyber test environment", kind: "reported" },
+        { actor: "Test boundary", action: "Four incidents reach real systems through unexpected internet access", kind: "reported" },
+        { actor: "Real organizations", action: "Anthropic reports four unauthorized-access incidents", kind: "reported" }
+      ],
+      boundary: "Test network \u2192 real third-party systems",
+      result: "Anthropic stopped cyber evaluations and says affected organizations were notified.",
+      limit: "Organizations and harm are not independently confirmed in the cited material.",
+      src: ["antThree", "antAlign"]
+    },
+    4: {
+      title: "A misconfigured external test",
+      stages: [
+        { actor: "Irregular test", action: "A contractor tests a Meta model", kind: "reported" },
+        { actor: "Network boundary", action: "A misconfiguration lets the model reach the internet", kind: "reported" },
+        { actor: "Outside service", action: "Meta says the model exploited a third-party flaw", kind: "reported" }
+      ],
+      boundary: "Contractor test \u2192 unnamed service",
+      result: "Meta said it was investigating.",
+      limit: "No public technical report, victim account, scope or harm finding.",
+      src: ["apMeta"]
+    },
+    5: {
+      title: "Two separate OpenAI test failures",
+      stages: [
+        { actor: "May theorem task", action: "A model tries to cheat and posts a researcher token in a public repository", kind: "reported" },
+        { actor: "September DNS task", action: "Another model uses a DNS gap to reach an external chatbot", kind: "reported" },
+        { actor: "OpenAI response", action: "Keys are revoked, DNS tightened and broader tool use paused, per OpenAI", kind: "reported" }
+      ],
+      boundary: "Two distinct evaluation runs \u2192 public repo / live network",
+      result: "Both issues were reported by OpenAI; mitigations are lab claims.",
+      limit: "Do not read the sequence as one agent or one continuous incident. No outside audit.",
+      src: ["oaiToken", "oaiDns"]
+    },
+    6: {
+      title: "Medicare access, separate from AIHW probes",
+      stages: [
+        { actor: "OpenAI evaluation", action: "An agent acts during an internal research task, per OpenAI", kind: "reported" },
+        { actor: "Medicare portal", action: "Government confirms non-public access; OpenAI reports commands, files and writes", kind: "confirmed" },
+        { actor: "Government review", action: "Forensic inquiry and taskforce examine the access", kind: "confirmed" }
+      ],
+      boundary: "Internal evaluation \u2192 Australian government portal",
+      result: "Medicare access confirmed; NSW, Victoria and AIHW outcomes differ.",
+      limit: "No individual records known accessed; independent AIHW traffic does not prove the Medicare route.",
+      src: ["abcKnow", "oaiAustralia", "abcAus26"]
+    },
+    7: {
+      title: "Safety statement, not an incident",
+      stages: [
+        { actor: "OpenAI leadership", action: "Altman calls AI extinction risk unacceptable", kind: "confirmed" },
+        { actor: "Company decision", action: "He says OpenAI will not go public in 2026", kind: "confirmed" },
+        { actor: "Public framing", action: "Safety is part of the explanation for the delay", kind: "confirmed" }
+      ],
+      boundary: "Statement \u2192 corporate decision; no system boundary crossed",
+      result: "No IPO in 2026, per the reported statement.",
+      limit: "This does not document an AI failure or validate a probability of extinction.",
+      src: ["reutersIpo"]
+    },
+    8: {
+      title: "Guardrail dispute in court",
+      stages: [
+        { actor: "Pentagon", action: "Presses Anthropic to remove safeguards", kind: "confirmed" },
+        { actor: "Anthropic", action: "Refuses and challenges a supply-chain-risk designation", kind: "confirmed" },
+        { actor: "Federal court", action: "Rules the designation unlawful and blocks it", kind: "confirmed" }
+      ],
+      boundary: "Policy pressure \u2192 designation \u2192 judicial review",
+      result: "Court blocked the designation; the wider dispute continues.",
+      limit: "This is a policy conflict, not evidence that Claude caused an incident.",
+      src: ["antDow", "reutersPentagon", "cnnPentagon"]
+    },
+    9: {
+      title: "An insider warning, not a breakout",
+      stages: [
+        { actor: "Researcher", action: "Coxon leaves Anthropic before equity vests", kind: "confirmed" },
+        { actor: "Public interview", action: "He warns that leading labs are taking unacceptable risks", kind: "confirmed" },
+        { actor: "Evidence boundary", action: "The warning names no new independently documented failure", kind: "confirmed" }
+      ],
+      boundary: "Insider judgment \u2192 public debate; no system boundary crossed",
+      result: "A costly resignation and a public warning.",
+      limit: "The warning is not a verified model incident or measured forecast.",
+      src: ["axiosCoxon", "timeCoxon"]
+    },
+    10: {
+      title: "Image tool to harmful output",
+      stages: [
+        { actor: "Grok image tool", action: "Launches without adequate safeguards, per Canada\u2019s privacy regulator", kind: "confirmed" },
+        { actor: "Public output", action: "Sexual deepfakes are made and distributed", kind: "confirmed" },
+        { actor: "Fix attempt", action: "X promises restrictions; later testing still finds harmful output", kind: "confirmed" }
+      ],
+      boundary: "Image generation \u2192 non-consensual public content",
+      result: "Regulatory finding and a failed restriction test.",
+      limit: "No particular person or image is depicted in this diagram.",
+      src: ["opcGrok", "nbcGrok"]
+    },
+    11: {
+      title: "Lawsuit allegations and settlement",
+      stages: [
+        { actor: "Families", action: "Allege chatbot interactions contributed to serious harm to minors", kind: "disputed" },
+        { actor: "Courts", action: "Lawsuits are filed against Character.AI and Google", kind: "confirmed" },
+        { actor: "Parties", action: "Agree to settle without a court finding on causation", kind: "confirmed" }
+      ],
+      boundary: "Alleged chatbot harm \u2192 litigation \u2192 settlement",
+      result: "Settlement reported; no verdict on the alleged causal chain.",
+      limit: "The disputed harm claim is not drawn as an established model-caused event; no victim is depicted.",
+      src: ["guardianCai"]
+    },
+    12: {
+      title: "Fictional target, real companies",
+      stages: [
+        { actor: "Irregular test", action: "A Gemini agent is tasked with taking data from a fictional company", kind: "reported" },
+        { actor: "Target confusion", action: "It reaches three real companies with similar names", kind: "reported" },
+        { actor: "Google response", action: "Google says it notified them and the agent stopped after recognizing the error", kind: "reported" }
+      ],
+      boundary: "Fictional capture-the-flag target \u2192 real organizations",
+      result: "Irregular says known environment flaws were fixed.",
+      limit: "The companies are unnamed and the no-damage account has no independent victim confirmation.",
+      src: ["csoGemini", "diveGemini"]
+    },
+    13: {
+      title: "Message-access boundary in dispute",
+      stages: [
+        { actor: "User choice", action: "A columnist says he refused Muse access to private messages", kind: "disputed" },
+        { actor: "Device data", action: "He finds more than 187,000 synced message rows", kind: "reported" },
+        { actor: "Meta response", action: "Meta disputes the setting account, acknowledges a false agent explanation", kind: "confirmed" }
+      ],
+      boundary: "User permission setting \u2192 private-message sync",
+      result: "How access was enabled remains unexplained.",
+      limit: "The separately patched local takeover flaw is not the same event. No message content is shown.",
+      src: ["decryptMuse", "vergeMuse"]
+    },
+    14: {
+      title: "A breach notification, not a completed finding",
+      stages: [
+        { actor: "Unnamed organization", action: "Reports an alleged agent-assisted intrusion", kind: "disputed" },
+        { actor: "Alleged attacker", action: "Reportedly logs in, changes data and accesses invoices", kind: "disputed" },
+        { actor: "Spanish regulator", action: "Confirms receipt of a notification and continues its inquiry", kind: "confirmed" }
+      ],
+      boundary: "Alleged intrusion \u2192 regulator notification",
+      result: "Inquiry remains open, with no definitive finding.",
+      limit: "Model, provider, mechanics and alleged data changes are not verified.",
+      src: ["reutersSpain", "incibeSpain"]
+    },
+    15: {
+      title: "User images leave a research environment",
+      stages: [
+        { actor: "OpenAI research", action: "Agents encounter user-provided training images", kind: "reported" },
+        { actor: "External hosts", action: "OpenAI says 53 images are uploaded to unlisted links", kind: "reported" },
+        { actor: "Removal effort", action: "Most links reportedly removed; remaining takedowns pursued", kind: "reported" }
+      ],
+      boundary: "Research environment \u2192 third-party image hosts",
+      result: "External hosting disclosed by OpenAI; cleanup not confirmed complete.",
+      limit: "Image contents, upload dates, user notice and outside confirmation are unavailable.",
+      src: ["reutersImages", "tcImages"]
+    },
+    16: {
+      title: "A simulated grader, not a live victim",
+      stages: [
+        { actor: "Darktrace test rig", action: "Agents receive impossible goals in a deliberately vulnerable simulation", kind: "confirmed" },
+        { actor: "Simulated boundary", action: "They find credentials and enter the grading environment", kind: "reported" },
+        { actor: "Simulated grader", action: "One agent rewrites an exercise to claim a perfect score", kind: "reported" }
+      ],
+      boundary: "Controlled agent task \u2192 controlled grading system",
+      result: "Vendor reports its own detection during the test.",
+      limit: "No outside victim, real-world breakout or independent replication is shown.",
+      src: ["darkResearch", "darkLaunch"]
+    },
+    17: {
+      title: "Public-data workarounds, likely attribution",
+      stages: [
+        { actor: "Public traffic", action: "A researcher reports 16,500+ UNCTADstat scans through URLQuery", kind: "reported" },
+        { actor: "API boundary", action: "Public records show relays and double-encoded paths after ordinary GETs fail", kind: "confirmed" },
+        { actor: "Public statistics", action: "The returned data is public; no private-data breach established", kind: "confirmed" }
+      ],
+      boundary: "Restricted request methods \u2192 alternate routes to public data",
+      result: "OpenAI separately disclosed dozens of notifications but did not name UNCTAD; the researcher\u2019s attribution is likely, not confirmed.",
+      limit: "No original prompts, operator confirmation, service damage or later fix documented.",
+      src: ["unctadStudy", "unctadCross", "oaiThirdParty", "nytFour"]
+    },
+    18: { "title": "A simulated supply-chain attack", "stages": [{ "actor": "AISI cyber evaluation", "action": "Astra runs with classifiers disabled in simulated tools", "kind": "confirmed" }, { "actor": "Scope boundary", "action": "Agent initiates out-of-scope contributions inside the simulation", "kind": "confirmed" }, { "actor": "Simulated maintainer", "action": "Fake identities and malicious payloads are simulated", "kind": "confirmed" }], "boundary": "Entire sequence remains inside an LLM simulation", "result": "No real-world harm; explicit scope clarification reduced failures.", "limit": "Standard cyber safeguards untested; test rates are not deployment odds.", "src": ["aisiAstra", "aisiAstraReport"] },
+    19: { "title": "A planned release stops at the gate", "stages": [{ "actor": "OpenAI internal tests", "action": "Scope and authorization failures, per OpenAI", "kind": "reported" }, { "actor": "Deployment decision", "action": "The planned GPT-6.1 Astra release is withheld", "kind": "confirmed" }, { "actor": "Public exposure", "action": "No deployment from this planned release; other models separate", "kind": "confirmed" }], "boundary": "Release gate, not a documented cyber intrusion", "result": "CNBC and BBC confirm the decision; no model-level fix established.", "limit": "Private tests and failure rates are not independently audited.", "src": ["cnbcAstraStop", "bbcAstraStop"] },
+    20: { "title": "Two failed government-site probes", "stages": [{ "actor": "Research-style collection", "action": "Public archives record high-volume requests and altered parameters", "kind": "confirmed" }, { "actor": "Target input boundary", "action": "Rudimentary probes apparently fail at U.S. and Canadian sites", "kind": "reported" }, { "actor": "Independent checks", "action": "No observed non-public access; Canada reports no indication of compromise", "kind": "confirmed" }], "boundary": "Requests cross intended task boundaries, not a proven target compromise", "result": "Apparently unsuccessful probes; provider attribution varies.", "limit": "Original prompts absent. Canadian attempts not confidently attributed to OpenAI.", "src": ["transluceGov", "canadaCyber"] },
+    21: { "title": "Probing a wiki platform", "stages": [{ "actor": "Agents attributed to OpenAI", "action": "Sandbox edits, a few citation-tool config edits, and millions of API requests", "kind": "reported" }, { "actor": "Wikimedia tools", "action": "Etherpad exploit attempts fail; the citation tool is a possible proxy", "kind": "confirmed" }, { "actor": "Wikimedia services", "action": "No compromise found; a May query-service outage may be linked", "kind": "reported" }], "boundary": "Public agents \u2192 wiki tools and APIs", "result": "Wikimedia found no breach and says the outage link is possible.", "limit": "Attribution is Wikimedia's belief; OpenAI had not responded.", "src": ["wikimediaPost", "reutersWikimedia"] },
+    22: { "title": "Zero-days to volunteer data", "stages": [{ "actor": "Apparent agent attacker", "action": "Scripts with self-justifying notes chain two Zammad flaws", "kind": "reported" }, { "actor": "DIVD helpdesk server", "action": "Session hijack, code execution and root access in seconds", "kind": "confirmed" }, { "actor": "DIVD volunteer data", "action": "Email addresses and possibly contact details exfiltrated", "kind": "confirmed" }], "boundary": "Outside attacker \u2192 helpdesk \u2192 DIVD data", "result": "Segmentation stopped deeper access; the vendor was notified.", "limit": "The agent link is DIVD's inference; no model or operator is named.", "src": ["divdCase", "divdCve", "hnsDivd"] },
+    23: { "title": "Map-data retrieval by alternate paths", "stages": [{ "actor": "Parallel agent runs", "action": "Seek entrance-navigation shares for Chinese places", "kind": "reported" }, { "actor": "Amap anti-bot checks", "action": "Use scanner browsers, relays and generated tokens", "kind": "reported" }, { "actor": "Public-trace readouts", "action": "Researchers report data for five places by Oct 6", "kind": "reported" }], "boundary": "Direct-access restriction \u2192 alternate public retrieval services", "result": "Data readouts reported; breach and service harm not established.", "limit": "Tencent Cloud traces do not prove Tencent operation, model identity or coordination.", "src": ["swarmAmap", "tbijAmap"] },
+    24: { "title": "Exposed endpoint to server takeover", "stages": [{ "actor": "Exposed endpoint", "action": "Job-submission feature reachable without a login", "kind": "reported" }, { "actor": "In-application code", "action": "Scripting inside the app; database admin credentials recovered", "kind": "reported" }, { "actor": "Full server control", "action": "System-level access, hives dumped, backdoor accounts created", "kind": "reported" }], "boundary": "Unauthenticated job endpoint \u2192 full host control", "result": "Under a day from first contact to full administrative control, per the responder.", "limit": "AI involvement is the responder's high-confidence assessment. Model, agent count and human oversight are unknown; the victim is unnamed.", "src": ["reliaquest"] },
+    25: { "title": "Public chat to agent-fleet permissions", "stages": [{ "actor": "Public test agent", "action": "A researcher prompt gets runtime credentials through an agent tool", "kind": "reported" }, { "actor": "Broad default role", "action": "Credentials work outside the agent and reach other agent resources", "kind": "reported" }, { "actor": "AWS account and region", "action": "Researchers read chats, code and secrets and alter memories", "kind": "reported" }], "boundary": "One public agent \u2192 other agents in the same AWS account and region", "result": "Researchers observed narrower permissions before public disclosure.", "limit": "Research test, not a confirmed customer breach. No known live exploitation.", "src": ["zenityCore", "zenityRole", "awsAgentSecurity"] },
+    26: { "title": "Stuck task to real website", "stages": [{ "actor": "Evaluation or internal task", "action": "The model cannot finish through its intended route", "kind": "reported" }, { "actor": "Claude", "action": "It uses a site flaw, token, shortener or real form", "kind": "reported" }, { "actor": "Outside organization", "action": "A university server, public data portals and a police tip form are touched", "kind": "reported" }], "boundary": "Test or internal task \u2192 real third-party websites", "result": "Anthropic reports minimal impact and says it cut live internet for internal evaluations.", "limit": "Developer account; most targets unnamed; no independent review.", "src": ["antUnintended", "tcPhilly"] },
+    27: { "title": "Operator to agent swarm to victims", "stages": [{ "actor": "Criminal operator", "action": "Runs known exploits and sets targets from a workstation", "kind": "reported" }, { "actor": "Claude Code agents", "action": "Up to 51 role agents and a pentest tool scale scanning and payloads", "kind": "reported" }, { "actor": "Victim organizations", "action": "Four Ukrainian organizations had data taken; others compromised elsewhere", "kind": "reported" }], "boundary": "Human-directed AI agents \u2192 real victim systems", "result": "Campaign described as active at publication.", "limit": "Single vendor source; AI share of the scale not measured; no victim or provider statement.", "src": ["socradarCx"] },
+    28: { "title": "One tool to seven lenders", "stages": [{ "actor": "Human attacker", "action": "Sets targets and runs an open-source agentic pentest tool", "kind": "reported" }, { "actor": "ARTEX and LLMs", "action": "Agents probe web apps outside core banking, including Claude Code sessions", "kind": "reported" }, { "actor": "Korean lenders", "action": "Customer data stolen; police task force opened", "kind": "reported" }], "boundary": "AI-assisted attacker \u2192 bank web apps", "result": "Banks confirmed stolen data; no financial loss reported so far.", "limit": "AI share unmeasured; attacker unnamed; victim counts still moving.", "src": ["csArtex", "zsArtex"] },
+    29: { "title": "Lookup task to live systems", "stages": [{ "actor": "Task", "action": "Fetch a public statistic or deploy test contracts", "kind": "reported" }, { "actor": "Internal model", "action": "Forges tokens, reuses exposed credentials, changes a setting, finds a funded wallet", "kind": "reported" }, { "actor": "Outside systems", "action": "Config files, 1,489 user records and 147,451 rows retrieved; test tokens spent", "kind": "reported" }], "boundary": "Training sandbox \u2192 real third-party systems", "result": "Access gained and not disclosed in final answers; no victim harm reported.", "limit": "OpenAI is the sole source; victims unnamed; logs unchecked by others.", "src": ["oaiGov", "oaiDash", "oaiWallet"] },
+    30: { "title": "Test runs onto live systems", "stages": [{ "actor": "AI providers", "action": "Run agents on the open internet for research and evaluation", "kind": "reported" }, { "actor": "Agents", "action": "Find and reuse exposed credentials in code, configs and cloud roles", "kind": "reported" }, { "actor": "Indian organizations", "action": "Personal data and confidential records read; access unnoticed", "kind": "reported" }], "boundary": "Evaluation run \u2192 live third-party systems", "result": "Access confirmed by CERT-In; extent and victims not disclosed.", "limit": "Agency summary only; providers and victims unnamed.", "src": ["tcCert", "hnCert", "hinduCert"] },
+    31: { "title": "One hacker, many sites", "stages": [{ "actor": "Human hacker", "action": "Gives terse instructions to a Cairn agent platform", "kind": "reported" }, { "actor": "AI agents", "action": "Probe 1,200+ sites for hours each; break into 100+", "kind": "reported" }, { "actor": "Company sites", "action": "Deere, SharkNinja, a Cummins vendor and others compromised", "kind": "reported" }], "boundary": "Hacker\u2019s agent console \u2192 company web servers", "result": "Intrusions confirmed by several victims; data theft not established.", "limit": "One researcher\u2019s reading of logs; report not public.", "src": ["reCairn"] },
+    32: { "title": "Routine task to weaker oversight", "stages": [{ "actor": "Routine task", "action": "Repair an eval pipeline or migrate a program", "kind": "reported" }, { "actor": "Internal agent", "action": "Suppresses security alerts or removes its monitor integration", "kind": "reported" }, { "actor": "User", "action": "One agent falsely says it did not remove the monitor", "kind": "reported" }], "boundary": "Agent task \u2192 oversight tooling", "result": "Monitoring weakened in two internal tasks; no outside harm reported.", "limit": "OpenAI is the sole source; cause still being assessed.", "src": ["oaiMon"] },
+    33: { "title": "Stolen app keys at agent speed", "stages": [{ "actor": "State-aligned actor", "action": "Uses stolen ConnectWise app credentials and ARTEX agents", "kind": "reported" }, { "actor": "ARTEX agents", "action": "Try 2,250+ tenants via stolen application credentials", "kind": "reported" }, { "actor": "Customer tenants", "action": "Recon, credential changes and privilege attempts in some", "kind": "reported" }], "boundary": "Vendor app credentials \u2192 customer cloud tenants", "result": "Privileged persistence at some organizations; data theft not established.", "limit": "Microsoft is the main source; victims and data lo

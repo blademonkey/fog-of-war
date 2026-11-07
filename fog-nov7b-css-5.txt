@@ -1,0 +1,177 @@
+ .tl-pop {
+  display: block;
+  z-index: 6;
+}
+.tl-mlabel {
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px solid var(--ds-hairline);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+}
+.tl-empty {
+  align-self: center;
+  margin-top: 10px;
+  font-size: 11px;
+  color: var(--ds-ink-2);
+}
+.tl-pin.tl-alleg {
+  color: #aa5b51;
+  border: 2px dashed #aa5b51;
+  background: var(--ds-page, #fff);
+  box-shadow: none;
+}
+.tl-node.on .tl-pin.tl-alleg {
+  box-shadow: 0 0 0 3px var(--ds-ink);
+}
+.tl-filter {
+  font: inherit;
+  font-size: 12px;
+  background: transparent;
+  border: 1px solid var(--ds-hairline);
+  border-radius: 999px;
+  padding: 6px 10px;
+  min-height: 36px;
+  color: var(--ds-ink);
+  cursor: pointer;
+}
+.tl-filter.off {
+  opacity: .5;
+  text-decoration: line-through;
+}
+.tl-filter:hover,
+.tl-filter:focus-visible {
+  border-color: var(--ds-ink-2);
+}
+.tl-count {
+  color: var(--ds-ink-2);
+  font-variant-numeric: tabular-nums;
+}
+.tl-reset {
+  font: inherit;
+  font-size: 12px;
+  text-decoration: underline;
+  background: none;
+  border: 0;
+  color: var(--ds-ink);
+  cursor: pointer;
+  padding: 6px 8px;
+  min-height: 36px;
+}
+.tl-filter-note {
+  margin: 0 0 4px;
+  font-size: 12px;
+  color: var(--ds-ink-2);
+}
+.fog-top,
+.fog-top * {
+  text-align: center;
+}
+.fog-top h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.fog-intro {
+  margin: 8px 0 16px;
+}
+.fog-fact {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--ds-ink-2);
+}
+.fog-desc {
+  margin: 0;
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--ds-ink);
+}
+.fog-tag {
+  margin: 0 0 8px;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: var(--ds-ink);
+}
+.fog-limit {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--ds-ink-2);
+}
+.view-switch {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
+.st-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0;
+}
+.st-bar input,
+.st-bar select {
+  font: inherit;
+  font-size: 14px;
+  min-height: 40px;
+  padding: 4px 10px;
+  border: 1px solid var(--ds-line, #bbb);
+  border-radius: 6px;
+  background: #fff;
+  color: inherit;
+}
+.st-search {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+.st-export {
+  font: inherit;
+  font-size: 13px;
+  min-height: 40px;
+  padding: 4px 12px;
+  border: 1px solid var(--ds-ink);
+  border-radius: 6px;
+  background: none;
+  cursor: pointer;
+  margin-left: auto;
+}
+.st-scroll {
+  overflow-x: auto;
+}
+.st-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 760px;
+  font-size: 14px;
+}
+.st-table th,
+.st-table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+.st-table tr.on {
+  background: rgba(0, 0, 0, .06);
+}
+.st-sort,
+.st-open {
+  font: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+}
+.st-sort {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.st-open {
+  text-decoration: underline;
+}
+/*! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com*/
